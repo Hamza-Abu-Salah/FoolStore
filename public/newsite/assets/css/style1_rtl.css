@@ -1,0 +1,180 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide{
+  padding-right: 17%;
+}
+.slide2{
+  right: 109%;
+    top: 2%;
+    height: 110%;
+}
+
+.card-im {
+  position: absolute;
+  text-align: center;
+  top: 33%;
+  left: 15px;
+  padding: 0px 30px;
+}
+
+.card-im1 {
+  position: absolute;
+  text-align: center;
+  right: 157px;
+  top: 0px;
+
+}
+
+.card-ie {
+  position: absolute;
+  text-align: center;
+  top: 33%;
+  padding: 0px 30px;
+}
+
+.card-ie1 {
+  position: absolute;
+  text-align: center;
+  right: 113px;
+  top: -50px;
+
+}
+
+.slide-content {
+  margin: 0 40px;
+  border-radius: 25px;
+}
+
+.card {
+  border-radius: 25px;
+  width: 100%;
+  margin-right: 25px;
+  background: none;
+  border: none !important;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.overlay {}
+
+.overlay::before,
+.overlay::after {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+
+.card-image {}
+
+.card-image .card-img {}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #4070F4;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #265DF2;
+}
+
+.swiper-navBtn {
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: #6E93f7;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+}
+@media  only screen and (max-width: 1199px){
+  .card-ie1 {
+    position: absolute;
+    text-align: center;
+    right: 92px;
+    top: -50px;
+}
+.card-im1 {
+  position: absolute;
+    text-align: center;
+    right: 140px;
+    top: 0px;
+}
+}
